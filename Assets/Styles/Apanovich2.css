@@ -1,0 +1,169 @@
+html{
+    height: 100%;
+}
+body {
+  font-family: 'Spectral SC', serif;
+  height: 100%;
+  margin: 0;
+  background-color: white;
+  color: rgb(54, 54, 54); 
+}
+.wrapper {
+  display: table;
+  margin: auto;
+  min-height: 100%;
+  min-width: 1800px;
+  background-color: rgb(221, 221, 221);
+}
+.content{
+  display: table-row;
+  height: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(93, 93, 93);
+}
+.span1{
+    height: 32px;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    margin-top: 25px;
+    margin-right: 220px;
+}
+.span2{
+    margin-top: 25px ;
+    border-bottom: 1px solid rgb(172, 172, 172);
+}
+a{
+    font-size: 25px;
+    text-decoration: none;
+}
+a:active{
+    color: rgb(54, 54, 54);
+}
+a:visited{
+    color: rgb(54, 54, 54);
+}
+a:link{
+    color: rgb(54, 54, 54);
+}
+a:hover{
+    font-style:italic;
+    cursor: pointer;
+}
+p{
+    font-size: 25px;
+}
+.name{
+    margin-left: 20px;
+}
+.info{
+    text-align: center;
+}
+footer{
+    display: flex;
+    border-top: 1px solid rgb(93, 93, 93);
+    justify-content:space-between;
+}
+.sun{
+    display: none;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top:15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sun:hover{
+    transform: scale(1.2);
+}
+.moon{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top:15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.moon:hover{
+    transform: scale(1.2);
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    margin-top: 100px;
+    list-style: none;  
+}
+
+li{
+    font-size: 30px;
+    margin-top: 20px;
+}
+li:before{
+    font-size: 25px;
+    content: '▶ ';
+    margin-right: 10px;
+}
+.social{
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+}
+.seti{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+.number{
+    font-family: "Brygada 1918", sans-serif;
+    margin-top: 30px;
+    margin-right: 160px;
+}
+.Mail{
+    margin-left: 20px;
+}
+.projects{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.projects1{
+    margin-top: 100px;
+    text-align: center;
+}
+.projects2{
+    text-align: center;
+    width: 200px;
+    height: 500px;
+}
+figcaption{
+    margin-top: 30px;
+    text-align: center;
+}
+.figma{
+    width: 60px;
+    height: 50px;
+    transition: 0.5s;
+}
+.figma:hover{
+    transform: scale(1.2);
+}
+.figma2{
+    display:none;
+    width: 52px;
+    height: 50px;
+    transition: 0.5s;
+}
+.figma2:hover{
+    transform: scale(1.2);
+}
+.projects3{
+    margin-top: 25px;
+    width: 200px;
+    height: 400px;
+}
+
